@@ -71,7 +71,7 @@ nav a
 	display: flex;
 	text-decoration: none;
 	margin-right:70px;
-	padding-top:2;
+	padding-top:2px;
 	color: black;
 
 }
@@ -260,15 +260,15 @@ section
     height: 130px;
 	
 }
-.l_1 p,h3,
+.l_1 p,.l_1 h3
 {
 	margin: 3px;
 	margin-left:8px;
 }
 
-.fa-star
+.star
 {
-	margin-left: 0;
+	margin-left:8px;
 }
 
 .grey
@@ -458,7 +458,6 @@ section
 footer
 {
 	display: flex;
-	justify-content:;
 	background-color: #F2F2F2;
 	border: 1rem #F2F2F2;
 	color: black;
@@ -493,7 +492,7 @@ footer a
 /***MEDIA QUERIES****/
 
 /*Iphone */
-@media (max-width: 400px)
+@media (max-width: 600px)
 
 {
 
@@ -532,6 +531,7 @@ footer a
 
 	main{width:auto;display: flex;flex-direction: column;}
 
+	/*hebergements*/
 	#hebergementMarseille{min-width:375px;padding:0;order:2;background-color: white;}
 	#hebergementMarseille h3{margin-top: auto;margin-bottom:8px;padding-left:10px;}
 	#hebergementMarseille p{margin-bottom:8px;padding-left:10px;}
@@ -539,17 +539,18 @@ footer a
 	.row{flex-direction:column;margin:10px;}
 	.row article,#hebergement a{min-width:330px;}/*300px*/
 	.l_1{width:auto;box-shadow:1px 1px 10px 2px rgba(0,0,0, 0.1);margin:10px;/*margin-bottom:10px;margin-left:1px;*/}
-	img{width:auto;}/*100*/
+	img{width:auto;}
 
+	/*populaire*/
 	#populaire{min-width:375px;padding:0;border-radius:0}
 	#populaire h2{width:57%;padding-left:26px}
 	#populaire a,.nuit{width:auto;}
-	/*#populaire i{left:70px;}*/
-	.l_2{height;auto;border-radius:15px;width:330px}
-	.img2{border-radius:11px 0px 0 11px;object-fit:cover;}
+	.l_2{height:auto;border-radius:15px;width:330px}
+	.img2{border-radius:11px 0px 0px 11px;object-fit:cover;}
 	.nuit p{margin-bottom:1.5rem;}
 	.nuit h3{margin-bottom:0.3rem}
 
+	/*Activités*/
 	#activites{flex-direction: column;width:auto;margin:auto}
 	.port{flex-direction:column;width:auto;margin-left:0px;}
 	.l_3a{width:auto;}
@@ -557,6 +558,7 @@ footer a
 	#activites article{height:11.1rem}
 	#activites img{height:8.5rem;}
 
+	/*Footer*/
 	footer{flex-direction:column;min-width:auto;}
 	footer div{margin-left:1.8rem;}
 	#fonctionnement{margin-left:1.8rem;}
@@ -565,7 +567,7 @@ footer a
 }
 
 /*Ipad*/
-@media all and (min-width:401px) and (max-width:1030px)
+@media all and (min-width:601px) and (max-width:1030px)
 
 {
 	#titre{width:110%;}
