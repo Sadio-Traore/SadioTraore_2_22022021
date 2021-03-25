@@ -224,6 +224,7 @@ section
 #hebergementMarseille
 { 
 	width: 60%; 
+	height:657.875px;
 	min-width: 500px; 
 }
 #hebergementMarseille h2,.plus2
@@ -243,6 +244,7 @@ section
 	display: flex; 
 	justify-content: space-around; 
 	margin-bottom: 20px;
+	margin-top:40px
 }
 .img
 {
@@ -346,12 +348,11 @@ section
 	flex-direction: column;
 }
 
-/*#norow h2
+#norow h2
 {
-	margin-top: 50px;
-	margin-left:35px;
-	margin-bottom: 0;
-}*/
+	margin-left:19px;
+}
+
 
 #activites
 {
@@ -360,7 +361,7 @@ section
 	width: 100%;
 	display:flex;
 	flex-direction: row;
-	/*background-color: white;*/
+	
 
 
 }
@@ -368,8 +369,9 @@ section
 #activites h3
 {
 	margin: auto;
-	padding-top:0.6rem;/*15px*/
-	margin-left: 1rem;/*padding_left:15px*/
+	padding-top:0.6rem;
+	margin-left: 1rem;
+	
 }
 
 .port
@@ -584,5 +586,3 @@ footer a
 
 	
 }
-
-
