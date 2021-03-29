@@ -608,7 +608,8 @@ footer a
 	#titre{width:110%;}
     
 	/*filtre*/
-	.filtreli{font-size:13px;padding-top:2px;}
+	.filtreli{font-size:13px;padding-top:10px;padding-bottom:10px}
+	#dog{width:111px}
 
 	/***MAIN***/
 
