@@ -56,6 +56,7 @@ header h2
 {
 	width:7.5rem;
 	height: 3rem; 
+	margin-top:20px;
 }
 
 
@@ -71,17 +72,26 @@ nav a
 	display: flex;
 	text-decoration: none;
 	margin-right:70px;
-	padding-top:2px;
+	position:relative;
+	left:30px;
+	text-align:center;
 	color: black;
 
 }
 
-nav a:hover
+nav li:hover
 {
-	color:blue;
+	
 	border-top: 2px solid  #0065FC;
-	padding-top: 2px;
+	padding-top: 20px;
 }
+
+nav li
+{
+	border:white 2px solid;
+    padding-top:20px; 
+}
+
 
 #inscription
 {
