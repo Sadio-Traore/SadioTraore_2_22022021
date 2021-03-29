@@ -5,9 +5,14 @@ body
 	width: auto;
 		
 }
-.fa-star
+.star
 {
 	color: #0065FC;
+}
+
+.grey
+{
+	color:#f2f2f2;
 }
 
 a
