@@ -34,13 +34,14 @@ header
 {
 	display: flex;
 	flex-direction: column;
-	margin:20px ;
+	margin:17px ;
+
 
 }
 
 #titre
 {
-	width: 95%;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -604,28 +605,32 @@ footer a
 @media all and (min-width:601px) and (max-width:1030px)
 
 {
+
+	body{width:100%;}
 	/***header***/
-	#titre{width:110%;}
+	header{margin-left:0px;margin-right:0px;}
+	#titre{width:100%;}
     
 	/*filtre*/
 	.filtreli{font-size:13px;padding-top:10px;padding-bottom:10px}
 	#dog{width:111px}
 
 	/***MAIN***/
+	main{margin:0px;padding:0px}
 
 	/*section*/
     section{margin-bottom:15px}
 
 	/*hébergements*/
-	#hebergementMarseille{order:2;padding-left:0;padding-right:0;margin:0.8px;width:auto}
+	#hebergementMarseille{order:2;padding-left:0;padding-right:0;margin:0.8px;width:auto;}
 
 	/*populaires*/
-	#populaire{width:100%;}
+	#populaire{width:auto;}
 	.img2{width:20.1rem;}
 	#populaire h2 i{left:26.3rem;}
 	.l_2{width:auto;height:10.8rem}
 	#populaire p{margin-bottom:22px;}
-	#populaire h2{margin-left:22px;}
+	#populaire h2{margin-left:22px;padding:0px}
 	.nuit{margin-top:30px;}
 	.nuit .star{margin:0px;padding:0px}
 
