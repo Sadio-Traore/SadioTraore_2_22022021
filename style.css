@@ -571,7 +571,7 @@ footer a
 	#populaire{min-width:330px;width:auto;padding:0;border-radius:0}
 	#populaire h2{width:57%;padding-left:26px}
 	#populaire a,.nuit{width:auto;}
-	.l_2{height:8rem;border-radius:15px;width:335px;padding-right:0px}
+	.l_2{height:8rem;border-radius:15px;width:auto;padding-right:0px}
 	.img2{border-radius:11px 0px 0px 11px;width:7rem;height:auto;}
 	.nuit .star{margin:0;padding:0;}
 	.nuit p{margin-bottom:1.5rem;}
