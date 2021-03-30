@@ -120,7 +120,7 @@ nav li
 	position: relative;
     left: 9px;
     height: 15px;
-    width: 8px;
+    width: 13px;
 	
 }
 
@@ -530,8 +530,9 @@ footer a
 	#titre{display: block;min-width:300px;position:relative;}
 	nav ul{display:flex;flex-wrap:wrap;}
 	nav{display:block;}
-	nav ul li{width:9.8rem; border-bottom: 3px solid #F2F2F2; 
+	nav ul li{width:9.8rem; border-bottom: 3px solid #F2F2F2;
 	height: 30px; line-height: 2rem; font-size: 1.1rem;}
+	nav li:hover{border-top:none;border-bottom:3px solid #0065FC;}
     nav ul :nth-child(1){order:2;} 
     nav ul :nth-child(2){order:3;}
     nav ul :nth-child(3){order:1;;margin-left:12.5rem;font-size:1.5rem;
@@ -548,25 +549,16 @@ footer a
 	
 	/*Recherche*/
 	#loupe
-	{
-	display:initial;
-	border-radius: 1rem;
-    background-color: #0065FC;
-	border:none;
-    color: white;
-	position:relative;
-	left:-17px;
-	top:-1px;
-    height: 45px;
+	{display:initial;border-radius: 1rem; background-color: #0065FC;border:none;color: white;position:relative;left:-17px;top:-1px;height: 45px;
     width: 40px;}
-
-	#recherche{display:none}
+	#lieu{width:63%}
+	#recherche{display:none;}
 
 	/***MAIN***/
 	main{width:auto;display: flex;flex-direction: column;}
 
 	/*hebergements*/
-	#hebergementMarseille{min-width:375px;padding:0;order:2;background-color: white;}
+	#hebergementMarseille{min-width:330px;width:auto;padding:0;order:2;background-color: white;}
 	#hebergementMarseille h3{margin-top: auto;margin-bottom:8px;padding-left:10px;}
 	#hebergementMarseille p{margin-bottom:8px;padding-left:10px;}
 	.star{padding-left:10px;}
@@ -576,7 +568,7 @@ footer a
 	img{width:auto;}
 
 	/*populaire*/
-	#populaire{min-width:375px;padding:0;border-radius:0}
+	#populaire{min-width:330px;width:auto;padding:0;border-radius:0}
 	#populaire h2{width:57%;padding-left:26px}
 	#populaire a,.nuit{width:auto;}
 	.l_2{height:8rem;border-radius:15px;width:335px;padding-right:0px}
@@ -594,7 +586,7 @@ footer a
 	#activites img{height:8.5rem;}
 
 	/***Footer***/
-	footer{flex-direction:column;min-width:auto;}
+	footer{flex-direction:column;width:auto;min-width:330px;}
 	footer div{margin-left:1.8rem;}
 	#fonctionnement{margin-left:1.8rem;}
 
