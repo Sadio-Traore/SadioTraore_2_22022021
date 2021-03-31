@@ -112,16 +112,14 @@ nav li
 
 .fa-map-marker-alt
 {
-	border: 0.8rem solid #F2F2F2;
+	border: 0.1REM SOLID white;
 	border-radius: 1rem 0rem 0rem 1rem;
-	background-color: #F2F2F2;
-	padding: 3px;
-	padding-top:2px;
+	border-right:none;
+	background-color: #F2F2f2;
+	padding: 14px;
 	position: relative;
     left: 9px;
-    height: 15px;
-    width: 13px;
-	
+		
 }
 
 
@@ -139,21 +137,30 @@ nav li
 
 #recherche
 {
-	border: 0.8rem solid #0065FC;
+	border: 0.08rem solid white;
 	border-radius:0rem 1rem 1rem 0rem;
+	border-left:none;
 	background-color: #0065FC; 
+	padding:14px;
 	font-weight: bold;
 	color: white;
 	position: relative;
     left: -18px;
-    bottom: 1.5px;
+    bottom: 1.2px;
 
 }
 
-.fa-info-circle
+.fa-info
 {
-	background-color:white;
+
+	border:0.1rem solid #f2f2f2;
+	border-radius:1rem;
+	padding:0.2rem;
+	padding-left:0.4rem;
+	padding-right:0.4rem;
+ 	background-color:white;
 	color:#0065FC;
+	
 	
 }
 
