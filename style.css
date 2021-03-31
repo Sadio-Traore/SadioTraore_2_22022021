@@ -211,9 +211,9 @@ nav li
 
 #filtres i
 {
-	border-radius:2rem;
+	border-radius:22px;
+	padding:0.8rem;
 	color:#0065FC;
-	border:0.7em #DEEBFF solid;
 	background-color:#DEEBFF;
 	margin-right:10px;
 
@@ -221,7 +221,7 @@ nav li
 
 .filtreli
 {
-	PADDING-top:0.5rem;
+	PADDING-top:0.6rem;
 	padding-right:15px;
 	 
 }
