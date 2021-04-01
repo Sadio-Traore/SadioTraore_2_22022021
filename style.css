@@ -243,13 +243,13 @@ section
 	padding: 20px;
 	margin: auto;
 }
-#hebergementMarseille
+#hebergement
 { 
 	width: 60%; 
 	height:657.875px;
 	min-width: 500px; 
 }
-#hebergementMarseille h2,.plus2
+#hebergement h2,.plus2
 {
 	margin-left:15px;
 	font-weight: bold;
@@ -435,7 +435,7 @@ section
 	border-radius: 1rem 1rem 0rem 0rem;
 	height: 23rem;
 	width: 100%;
-	object-fit: cover;
+	object-fit: none;
 
 }
 
@@ -453,6 +453,11 @@ section
 	width: 100%;
 	height:6.72rem;
 	 
+}
+
+#frioulphoto
+{
+	object-fit:cover;
 }
 
 .l_3a
@@ -564,13 +569,13 @@ footer a
 	main{width:auto;display: flex;flex-direction: column;}
 
 	/*hebergements*/
-	#hebergementMarseille{min-width:330px;width:auto;padding:0;order:2;background-color: white;}
-	#hebergementMarseille h3{margin-top: auto;margin-bottom:8px;padding-left:10px;}
-	#hebergementMarseille p{margin-bottom:8px;padding-left:10px;}
+	#hebergement{min-width:330px;width:auto;padding:0;order:2;background-color: white;}
+	#hebergement h3{margin-top: auto;margin-bottom:8px;padding-left:10px;}
+	#hebergement p{margin-bottom:8px;padding-left:10px;}
 	.star{padding-left:10px;}
 	.row{flex-direction:column;margin:10px;}
-	.row article,#hebergement a{min-width:330px;}/*300px*/
-	.l_1{width:auto;box-shadow:1px 1px 10px 2px rgba(0,0,0, 0.1);margin:10px;/*margin-bottom:10px;margin-left:1px;*/}
+	.row article,#hebergement a{min-width:330px;}
+	.l_1{width:auto;box-shadow:1px 1px 10px 2px rgba(0,0,0, 0.1);}
 	img{width:auto;}
 
 	/*populaire*/
@@ -620,7 +625,7 @@ footer a
     section{margin-bottom:15px}
 
 	/*hébergements*/
-	#hebergementMarseille{order:2;padding-left:0;padding-right:0;margin:0.8px;width:auto;}
+	#hebergement{order:2;padding-left:0;padding-right:0;margin:0.8px;width:auto;}
 
 	/*populaires*/
 	#populaire{width:auto;}
@@ -636,6 +641,9 @@ footer a
 	/*Activités*/
     #activites{flex-direction:column;padding-left:0}
     .port{width:auto;}
+
+	/***Footer***/
+	footer{width:auto;}
 
 	
 }
