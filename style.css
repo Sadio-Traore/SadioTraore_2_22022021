@@ -551,7 +551,7 @@ footer a
     font-weight:bold;border-bottom:none;width:90px}
     
     
-
+	nav a{position:relative; left:0}
     nav a:hover{border-bottom:#0065FC;}
 	#logo{position:absolute;}
 
