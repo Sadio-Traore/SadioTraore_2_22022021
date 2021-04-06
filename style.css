@@ -630,10 +630,10 @@ footer a
 	main{margin:0px;padding:0px}
 
 	/*section*/
-    section{margin-bottom:15px}
+    section{margin-bottom:15px;margin:10px;}
 
 	/*hébergements*/
-	#hebergement{order:2;padding-left:0;padding-right:0;margin:0.8px;width:auto;}
+	#hebergement{order:2;padding-left:0;padding-right:0;width:auto;}
 
 	/*populaires*/
 	#populaire{width:auto;}
