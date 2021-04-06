@@ -531,7 +531,7 @@ footer a
 /***MEDIA QUERIES****/
 
 /*Iphone */
-@media (max-width: 500px)
+@media only screen (min-width:300px) and (max-width:474px)
 
 {
 
@@ -613,7 +613,7 @@ footer a
 }
 
 /*Ipad*/
-@media all and (min-width:501px) and (max-width:1030px)
+@media all and (min-width:475px) and (max-width:1024px)
 
 {
 
