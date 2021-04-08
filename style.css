@@ -614,7 +614,7 @@ footer a
 
 /*Tablette*/
 
-@media (min-width:475px)and (max-width:770px)
+@media (min-width:475px)and (max-width:760px)
 {
     body{width:100%}
     section{width:100%;min-width:500px;margin-bottom:50px;margin-left:0;margin-right:0;padding:0}
@@ -662,7 +662,7 @@ footer a
 
 
 
-@media all and (min-width:771px) and (max-width:1024px)
+@media all and (min-width:761px) and (max-width:1024px)
 
 {
 
