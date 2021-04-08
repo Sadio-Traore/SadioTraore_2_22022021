@@ -605,7 +605,7 @@ footer a
 	#activites img{height:8.5rem;}
 
 	/***Footer***/
-	footer{flex-direction:column;width:auto;min-width:330px;}
+	footer{flex-direction:column;width:auto;min-width:300px;}
 	footer div{margin-left:1.8rem;}
 	#fonctionnement{margin-left:1.8rem;}
 
