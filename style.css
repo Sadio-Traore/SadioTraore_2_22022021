@@ -616,24 +616,27 @@ footer a
 
 @media (min-width:474px)and (max-width:760px)
 {
-    body{width:100%}
-    section{width:100%;min-width:500px;margin-bottom:50px;margin-left:0;margin-right:0;padding:0}
 
+    body{width:100%;margin:0}
+    section{width:100%;min-width:500px;margin-bottom:50px;padding:0}
+
+	/***HEADER***/
+
+	/*en-tête*/
     header{display:flex;}
     #titre{min-width:450px;flex-wrap:wrap}
-    nav ul :nth-child(1){order:2}
+    nav ul :nth-child(1){order:2;left:0px}
     nav ul :nth-child(2){order:3}
-    nav{justify-content:space-between;}
-    nav li{min-width:140px;}
-    nav a{min-width:65px;margin-right:0}
-    #inscription {position:relative;}
+    nav li{min-width:140px;width:auto;}
+    nav a{min-width:65px;}
+    #inscription {position:relative;left:0px;width:60px;margin-right:0}
 
-    nav{display:block;}
-    
+    /*Filtres*/
     #filtres{flex-direction:column;}
 	#filtres ul{ display: flex;width:auto;flex-wrap: wrap;}
 	#info{font-size:15px}
 
+	/*hébergements*/
     #hebergement{min-width:475px;width:100%;order:2;height:auto;}
 	#hebergement h3{margin-top: auto;margin-bottom:8px;padding-left:10px;}
 	#hebergement p{margin-bottom:8px;padding-left:14px;margin-left:0px;}
@@ -666,7 +669,8 @@ footer a
 
 {
 
-	body{width:100%;margin-left:0}
+	body{width:100%;margin-left:0
+	}
 
 	/***header***/
 	header{margin-left:0px;margin-right:0px;}
