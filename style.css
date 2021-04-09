@@ -626,7 +626,7 @@ footer a
     nav{justify-content:space-between;}
     nav li{min-width:140px;}
     nav a{min-width:65px;margin-right:0}
-    #inscription {position:absolute;}
+    #inscription {position:relative;}
 
     nav{display:block;}
     
@@ -666,10 +666,12 @@ footer a
 
 {
 
-	body{width:100%;}
+	body{width:100%;margin-left:0}
+
 	/***header***/
 	header{margin-left:0px;margin-right:0px;}
 	#titre{width:100%;}
+	#inscription{width:64px}
     
 	/*filtre*/
 	.filtreli{font-size:13px;padding-top:10px;padding-bottom:10px}
@@ -679,13 +681,13 @@ footer a
 	main{margin:0px;padding:0px}
 
 	/*section*/
-    section{margin-bottom:15px;margin-left:0px;margin-right:8px;width:100%}
+    section{margin-bottom:15px;width:100%}
 
 	/*hébergements*/
 	#hebergement{order:2;padding-left:0;padding-right:0;width:auto;}
 
 	/*populaires*/
-	#populaire{width:auto;}
+	#populaire{width:auto;width:100%}
 	.img2{width:20.1rem;}
 	#populaire h2 i{left:26.3rem;}
 	.l_2{width:auto;height:10.8rem}
